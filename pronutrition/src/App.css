@@ -1,0 +1,47 @@
+img{
+  width:100px;
+  height:100px;
+}
+.food-box
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: gainsboro;
+  width:600px;
+  height:100px;
+  margin-left: 200px;
+  margin-top:40px;
+  border:2px solid blue;
+}
+.media
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.calories-food-component
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.media-right
+{
+  padding-left: 30px;
+}
+.add-to-list
+{
+  background-color: blue;
+  color:white;
+  height:20px;
+  width:30px;
+}
+.search-bar
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
